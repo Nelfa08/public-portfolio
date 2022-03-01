@@ -7,6 +7,19 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: rgba(144, 38, 75, .7);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #353b48;
+}
+
 .navbar {
     position: fixed;
     background-color: transparent;
