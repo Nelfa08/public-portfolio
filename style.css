@@ -161,8 +161,12 @@
     transition: .2s linear;
 }
 
-.sm a:hover {
-    color: #37b94c;
+#home .sm a#linkedin:hover {
+    color: #0a63bc;
+}
+
+#home .sm a#github:hover {
+    color: #c5c5c5;
 }
 
 #home .buttons {
