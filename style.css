@@ -335,7 +335,7 @@ section.dark .section-title::after {
 }
 
 .sql::after {
-    width: 60%;
+    width: 75%;
 }
 
 .JS::after {
@@ -350,6 +350,16 @@ section.dark .section-title::after {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.time-line img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.time-line ul {
+    list-style-position: inside;
 }
 
 .block {
