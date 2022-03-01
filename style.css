@@ -61,10 +61,9 @@
 .navbar-menu a {
     color: #fff;
     font-size: 15px;
-    font-weight: 500;
     margin-left: 30px;
     transition: .2s linear;
-    text-shadow:
+    /* text-shadow:
     -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -75,12 +74,12 @@
     1px 1px 7px #141414,
     1px 1px 10px #141414,
     1px 1px 12px #141414,
-    1px 1px 18px #141414;
+    1px 1px 18px #141414; */
     color:#fff;
 }
 
 .navbar-menu a:hover {
-    color: #3bcf54 !important;
+    color: #90264b !important;
 }
 
 .sticky {
@@ -106,7 +105,7 @@
 #home {
     height: 100vh;
     min-height: 500px;
-    background: url(src/bg1.png) no-repeat center;
+    background: url(src/bg1save.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -178,9 +177,8 @@
     margin: 15px 30px;
     color: #fff;
     font-size: 15px;
-    font-weight: 500;
     width: 180px;
-    background-color: #3bcf54;
+    background-color: #90264b;
     padding: 14px 0;
     border-radius: 6px;
     transition: .2s linear;
@@ -220,7 +218,7 @@ section {
     position: absolute;
     width: 16px;
     height: 10px;
-    background-color: #3bcf54;
+    background-color: #90264b;
     border: 4px solid #f1f1f1;
     left: calc(50% - 12px);
     bottom: -7px;
@@ -269,7 +267,7 @@ section.dark .section-title::after {
     content: "";
     width: 6px;
     height: 6px;
-    background-color: #3bcf54;
+    background-color: #90264b;
     display: inline-block;
     border-radius: 50%;
     margin: 0 14px;
@@ -310,7 +308,7 @@ section.dark .section-title::after {
     content: "";
     position: absolute;
     height: 6px;
-    background-color: #3bcf54;
+    background-color: #90264b;
     bottom: 0;
 }
 
@@ -387,7 +385,7 @@ section.dark .section-title::after {
     position: absolute;
     width: 16px;
     height: 16px;
-    background-color: #3bcf54;
+    background-color: #90264b;
     left: -28px;
     top: 30px;
     border-radius: 50%;
@@ -424,7 +422,7 @@ section.dark .section-title::after {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: #3bcf54;
+    background-color: #90264b;
     transition: .2s linear;
     opacity: 0;
     transform: scale(0);
@@ -441,12 +439,12 @@ section.dark .section-title::after {
 }
 
 .work:hover img {
-    transform: scale(1.6) rotate(10deg);
+    transform: scale(1.1) rotate(0deg);
 }
 
 .work:hover::before,
 .work:hover .info {
-    opacity: 1;
+    opacity: .9;
     transform: scale(1);
 }
 
