@@ -9,7 +9,6 @@
 
 html {
     scroll-behavior: smooth;
-    cursor:url(src/Photo.cur), pointer;
 }
 
 ::selection {
