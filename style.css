@@ -81,18 +81,6 @@ html {
     font-size: 15px;
     margin-left: 30px;
     transition: .2s linear;
-    /* text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000,
-    1px 1px 2px #141414,
-    1px 1px 3px #141414,
-    1px 1px 5px #141414,
-    1px 1px 7px #141414,
-    1px 1px 10px #141414,
-    1px 1px 12px #141414,
-    1px 1px 18px #141414; */
     color:#fff;
 }
 
@@ -145,18 +133,6 @@ html {
     font-size: 60px;
     margin-bottom: 60px;
     font-weight: 600;
-    /* text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000,
-    1px 1px 2px #141414,
-    1px 1px 3px #141414,
-    1px 1px 5px #141414,
-    1px 1px 7px #141414,
-    1px 1px 10px #141414,
-    1px 1px 12px #141414,
-    1px 1px 18px #141414; */
     color:#fff;
 }
 
